@@ -90,7 +90,7 @@ export const useEffectStore = defineStore('effect', () => {
             const mval = 15 + 1 // 3 + 1
 
             const img = (await loadImage(url)) as HTMLImageElement
-            let imageData = toImageData(img)
+            const imageData = toImageData(img)
 
             if (!imageData) {
                 console.warn("Can't get image data!")

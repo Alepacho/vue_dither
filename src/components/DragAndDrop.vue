@@ -25,7 +25,7 @@ const onFileSelect = (e: Event) => {
 const onFormClick = (e: Event) => {
     console.log('Click', e)
     console.log('inputRef', inputRef)
-    if (inputRef) {
+    if (inputRef.value) {
         inputRef.value.click()
     }
 }
