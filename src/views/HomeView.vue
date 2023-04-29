@@ -30,7 +30,10 @@ const handleProceed = () => {
     <main class="min-h-screen">
         <h2 class="text-center pt-3">Dither Effect Tool!</h2>
 
+		
         <div class="flex justify-items-center flex-col p-5">
+			<img class="my-3 flex flex-row justify-center" src="/media/preview.png" />
+
             <div class="flex flex-row justify-center m-3">
                 <DragAndDrop class="w-full" @on-get-file="handleFile" />
             </div>

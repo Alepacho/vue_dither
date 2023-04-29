@@ -4,7 +4,7 @@
             Made by <a href="https://github.com/Alepacho">Alepacho</a>, special for u 💙.
         </h2>
 
-        <img class="my-3" src="giphy.gif" />
+        <img class="my-3" src="/giphy.gif" />
 
         <RouterLink to="/" class="text-lg text-center"> back </RouterLink>
     </div>
